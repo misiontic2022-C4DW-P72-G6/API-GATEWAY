@@ -12,19 +12,29 @@ input CredentialsInput {
     username: String!
     password: String!
 }
+
+
 input SignUpInput {
     username: String!
     password: String!
-    name: String!
-    email: String!
+    Nombres: String!
+    Apellidos: String!
+    No_documento: Int!
+    Direccion: String!
+    Telefono: Int!
+    Correo: String!
+    Ciudad: String!
     balance: Int!
 }
 type UserDetail {
     id: Int!
-    username: String!
-    password: String!
-    name: String!
-    email: String!
+    Nombres: String!
+    Apellidos: String!
+    No_documento: Int!
+    Direccion: String!
+    Telefono: Int!
+    Correo: String!
+    Ciudad: String!
 }
 type Mutation {
     signUpUser(userInput :SignUpInput): Tokens!
@@ -36,3 +46,5 @@ type Query {
 }`;
 
 module.exports = authTypeDefs;
+
+
