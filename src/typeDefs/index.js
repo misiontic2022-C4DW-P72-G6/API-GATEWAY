@@ -3,7 +3,7 @@ const accountTypeDefs = require('./account_type_defs');
 const transactionTypeDefs = require('./transaction_type_defs');
 const authTypeDefs = require('./auth_type_defs');
 const ReservasTypeDefs = require('./Reservas_type_defs');
-const CatalogoTypeDefs = require('./Catalogo_type_defs');
+const CatalogoTypeDefs = require('./catalogo_type_defs');
 const HabitacionTypeDefs = require('./Habitacion_type_defs');
 
 //Se unen

@@ -4,7 +4,7 @@ const resolvers = require('./resolvers');
 const AccountAPI = require('./dataSources/account_api');
 const AuthAPI = require('./dataSources/auth_api');
 const Reserva_API = require('./dataSources/Reservas_api');
-const Catalogo_API = require('./dataSources/Catalogo_api');
+const Catalogo_API = require('./dataSources/catalogo_api');
 const authentication = require('./utils/authentication');
 
 

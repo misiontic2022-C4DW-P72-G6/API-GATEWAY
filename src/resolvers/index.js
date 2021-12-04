@@ -1,4 +1,5 @@
 const accountResolver = require('./account_resolver');
+const catalogoResolver = require('./catalogo_resolver');
 const transactionResolver = require('./transaction_resolver');
 const authResolver = require('./auth_resolver');
 const lodash = require('lodash');

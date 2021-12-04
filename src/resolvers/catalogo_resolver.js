@@ -1,10 +1,9 @@
 const catalogoResolver = {
     Query: {
-        catalogoDetailById: (_, { userId }, { dataSources, userIdToken }) => {
-            if (userId == userIdToken)
-                return dataSources.authAPI.getUser(userId)
-            else
-                return null
+        catalogoDetailById: (_, {idCatalogo}, { dataSources}) => {
+            
+                return dataSources.CatalogoAPI.getCatalogo(idCatalogo)
+          
     
         },
     },
